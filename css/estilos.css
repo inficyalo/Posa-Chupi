@@ -520,6 +520,7 @@ body {
     text-align: center;
     display: grid;
     justify-items: center;
+    margin-bottom: 20px;
 }
 
 .hidden-word{
