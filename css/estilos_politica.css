@@ -5,8 +5,18 @@
     --color-title: #001A49;
 }
 
+*{
+    display: grid;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+
+title{
+    position: absolute;
+    margin-left: -100px;
 }
 
 .container {
@@ -14,7 +24,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     overflow: hidden;
-    padding: var(--padding-container);
+    padding: 20px
 }
 
 .hero {
